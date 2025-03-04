@@ -3,7 +3,6 @@ def get_summ(one, two, delimiter='&'):
     two = str(two)
     return one+delimiter+two
 
-
 result = get_summ('Learn','Python')
 print(result.upper())
 
